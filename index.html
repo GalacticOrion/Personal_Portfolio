@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ravi | Unique Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="theme-toggle">
+    <i class="fas fa-sun"></i>
+    <i class="fas fa-moon"></i>
+  </div>
+
+  <nav id="mainNav">
+    <a href="#home" class="active"><i class="fas fa-home"></i><span class="nav-label">Home</span></a>
+    <a href="#about"><i class="fas fa-user"></i><span class="nav-label">About</span></a>
+    <a href="#projects"><i class="fas fa-code"></i><span class="nav-label">Projects</span></a>
+    <a href="#skills"><i class="fas fa-brain"></i><span class="nav-label">Skills</span></a>
+    <a href="#contact"><i class="fas fa-envelope"></i><span class="nav-label">Contact</span></a>
+  </nav>
+  
+  <main>
+    <section id="home" class="hero">
+      <div id="particles-js"></div>
+      <div class="avatar-container">
+        <div class="avatar-placeholder"><img src="img/profile.jpg" alt="R"></div>
+      </div>
+      <h1>Hi, I'm Ravi</h1>
+      <p>Full Stack Developer | Web Enthusiast</p>
+      <div class="social-icons">
+        <a href="https://github.com/GalacticOrion" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ravi-thakur-37b107282?" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://instagram.com/yourprofile" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+      <a href="#about" class="scroll-down">
+        <span>Scroll Down</span>
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm passionate about web development, currently learning MERN Stack and blockchain. I have 1.6+ years of experience at HCLTech working with Azure, Active Directory, SAP basics, and support tools like Zendesk and ServiceNow.</p>
+      
+      <div class="about-tabs">
+        <div class="tab-buttons">
+          <button class="tab-btn active" data-tab="education">Education</button>
+          <button class="tab-btn" data-tab="experience">Experience</button>
+          <button class="tab-btn" data-tab="languages">Languages</button>
+        </div>
+        
+        <div class="tab-content">
+          <div class="tab-pane active" id="education">
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023-2025</div>
+                <div class="timeline-content">
+                  <h3>Bachelor's in Computer Science</h3>
+                  <p>University of Amity Noida</p>
+                  <p>Graduated with honors, focusing on web technologies and software engineering.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2019-2021</div>
+                <div class="timeline-content">
+                  <h3>Senior Secondary</h3>
+                  <p>Saraswati Shishu Vidya Mandir</p>
+                  <p>Specialized in Computer Science and Mathematics.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2009-2018</div>
+                <div class="timeline-content">
+                  <h3>School</h3>
+                  <p>Saraswati Shishu Vidya Mandir</p>
+                  <p>Developed early interest in computers and participated in science competitions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="tab-pane" id="experience">
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022-Present</div>
+                <div class="timeline-content">
+                  <h3>HCLTech</h3>
+                  <p>Web Developer</p>
+                  <p>Developing engineering automation tools via a rich web interface that will automate and standardize many common development tasks including service bootstrapping, security and privacy setup</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022</div>
+                <div class="timeline-content">
+                  <h3>HCLTech</h3>
+                  <p>Internship</p>
+                  <p>Assisted in developing knowledge in  Web Development | Cyber Security | Networking | Windows Server</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="tab-pane" id="languages">
+            <div class="languages-container">
+              <div class="language-item">
+                <div class="language-info">
+                  <span>English</span>
+                  <span>Professional</span>
+                </div>
+                <div class="language-bar">
+                  <div class="language-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="language-item">
+                <div class="language-info">
+                  <span>Hindi</span>
+                  <span>Native</span>
+                </div>
+                <div class="language-bar">
+                  <div class="language-progress" style="width: 100%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Expense Tracker (Web Based)</h3>
+            <p>Track monthly expenses with balance, categories, and friend split feature.</p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://galacticorion.github.io/ExpensesManager_web/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+              <a href="https://github.com/GalacticOrion/ExpensesManager_web" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Password_Generator</h3>
+            <p>Generate Custome length Password </p>
+            <div class="project-tech">
+              <span>Python</span>
+
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/GalacticOrion/Password_Generator" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skills-group">
+          <h3>Frontend</h3>
+          <div class="skills-grid">
+            <div class="skill-item"><div class="skill-icon"><i class="fab fa-html5"></i></div>HTML</div>
+            <div class="skill-item"><div class="skill-icon"><i class="fab fa-css3-alt"></i></div>CSS</div>
+            <div class="skill-item"><div class="skill-icon"><i class="fab fa-js"></i></div>JavaScript</div>
+            <div class="skill-item"><div class="skill-icon"><i class="fab fa-react"></i></div>React</div>
+            <div class="skill-item"><div class="skill-icon"><i class="fab fa-css3-alt"></i></div>Tailwind CSS</div>
+          </div>
+        </div>
+        <div class="skills-group">
+          <h3>Backend</h3>
+          <div class="skills-grid">
+            <div class="skill-item"><div class="skill-icon"><i class="fab fa-node-js"></i></div>Node.js</div>
+            <div class="skill-item"><div class="skill-icon"><i class="fas fa-database"></i></div>MongoDB</div>
+            <div class="skill-item"><div class="skill-icon"><i class="fab fa-python"></i></div>Python</div>
+          </div>
+        </div>
+        <div class="skills-group">
+          <h3>Tools & Other</h3>
+          <div class="skills-grid">
+            <div class="skill-item"><div class="skill-icon"><i class="fab fa-git-alt"></i></div>Git</div>
+            <div class="skill-item"><div class="skill-icon"><i class="fab fa-microsoft"></i></div>Azure</div>
+            <div class="skill-item"><div class="skill-icon"><i class="fas fa-user-shield"></i></div>Active Directory</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <p>Let's connect! Fill out the form or reach out via email or LinkedIn.</p>
+          <div class="contact-details">
+            <div><i class="fas fa-envelope"></i> <a href="mailto:ravi@example.com">rkt2821@outlook.com</a></div>
+            <div><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn Profile</a></div>
+            <div><i class="fas fa-map-marker-alt"></i> India</div>
+          </div>
+        </div>
+        <form id="contactForm" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      &copy; <span id="year"></span> Ravi. All rights reserved.
+    </footer>
+    
+    <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Theme toggle functionality
+    const themeToggle = document.querySelector('.theme-toggle');
+    const root = document.documentElement;
+    
+    // Check for saved theme preference
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'light') {
+      root.classList.add('light-mode');
+    }
+    
+    themeToggle.addEventListener('click', () => {
+      root.classList.toggle('light-mode');
+      // Save theme preference
+      if (root.classList.contains('light-mode')) {
+        localStorage.setItem('theme', 'light');
+      } else {
+        localStorage.setItem('theme', 'dark');
+      }
+    });
+
+    // Tab switching functionality
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const tabPanes = document.querySelectorAll('.tab-pane');
+    
+    // Function to animate timeline items
+    function animateTimelineItems(tabId) {
+      if (tabId === 'education' || tabId === 'experience') {
+        const timelineItems = document.querySelectorAll(`#${tabId} .timeline-item`);
+        timelineItems.forEach((item, index) => {
+          item.style.animationDelay = `${index * 0.2}s`;
+        });
+      }
+      
+      // Trigger progress bar animation for languages tab
+      if (tabId === 'languages') {
+        const progressBars = document.querySelectorAll('.language-progress');
+        progressBars.forEach((bar, index) => {
+          bar.style.animationDelay = `${index * 0.2}s`;
+        });
+      }
+    }
+    
+    // Animate the initially active tab
+    const initialActiveTab = document.querySelector('.tab-pane.active').id;
+    animateTimelineItems(initialActiveTab);
+    
+    tabButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        // Remove active class from all buttons and panes
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+        tabPanes.forEach(pane => pane.classList.remove('active'));
+        
+        // Add active class to clicked button
+        button.classList.add('active');
+        
+        // Get target tab and activate it
+        const targetTab = button.getAttribute('data-tab');
+        document.getElementById(targetTab).classList.add('active');
+        
+        // Animate the content of the active tab
+        animateTimelineItems(targetTab);
+      });
+    });
+
+    // Section observer for animations and nav highlighting
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('nav a');
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          
+          // Get the corresponding nav link
+          const id = entry.target.getAttribute('id');
+          const navLink = document.querySelector(`nav a[href="#${id}"]`);
+          
+          // Update active nav item
+          navLinks.forEach(link => link.classList.remove('active'));
+          if (navLink) navLink.classList.add('active');
+        }
+      });
+    }, { threshold: 0.3 });
+    
+    sections.forEach(section => observer.observe(section));
+
+    // Back to top button
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        backToTop.classList.add('visible');
+      } else {
+        backToTop.classList.remove('visible');
+      }
+    });
+
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('nav a, .scroll-down').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+        
+        if (targetSection) {
+          targetSection.scrollIntoView({
+            behavior: 'smooth'
+          });
+          
+          // Update active nav item if it's a nav link
+          if (this.parentElement.tagName === 'NAV') {
+            navLinks.forEach(link => link.classList.remove('active'));
+            this.classList.add('active');
+          }
+        }
+      });
+    });
+
+    // Form submit handling
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+      contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const formData = new FormData(this);
+        const name = formData.get('name');
+        
+        // In a real application, you would send this data to a server
+        alert(`Thanks for your message, ${name}! This is a demo form - in a real application, your message would be sent to the server.`);
+        this.reset();
+      });
+    }
+
+    // Particles.js configuration
+    particlesJS("particles-js", {
+      "particles": {
+        "number": { "value": 80, "density": { "enable": true, "value_area": 800 } },
+        "color": { "value": "#f59e0b" },
+        "shape": { 
+          "type": "circle",
+          "stroke": { "width": 0, "color": "#000000" },
+          "polygon": { "nb_sides": 5 }
+        },
+        "opacity": { 
+          "value": 0.5, 
+          "random": false,
+          "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false }
+        },
+        "size": { 
+          "value": 3, 
+          "random": true,
+          "anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": false }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#3b82f6",
+          "opacity": 0.5,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 2,
+          "direction": "none",
+          "random": false,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 }
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": { "enable": true, "mode": "grab" },
+          "onclick": { "enable": true, "mode": "push" },
+          "resize": true
+        },
+        "modes": {
+          "grab": { "distance": 140, "line_linked": { "opacity": 1 } },
+          "bubble": { "distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3 },
+          "repulse": { "distance": 200, "duration": 0.4 },
+          "push": { "particles_nb": 4 },
+          "remove": { "particles_nb": 2 }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+</body>
+</html>
